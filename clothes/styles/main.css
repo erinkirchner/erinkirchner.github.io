@@ -1,8 +1,8 @@
 html {
     width:100%;
     height:100%;
-    overflow-x:hidden;
-    background-color:#8f0c4b
+   /*overflow-x:hidden;*/
+    background-color:#8f0c4b;
 }
 
 
@@ -11,7 +11,7 @@ html {
 ul li {
     display:inline;
     padding:5%;
-    font-size:1.5em
+    font-size:1.5em;
 
 }
 
@@ -33,7 +33,7 @@ ul li a {
     background-color:#0065A9;
     float:right;
     border-bottom-left-radius:5px;
-    border-top-left-radius:5px
+    border-top-left-radius:5px;
 }
 
 #navWrap {
@@ -45,7 +45,7 @@ ul li a {
     background-color:#0065A9;
     float:right;
     border-bottom-left-radius:5px;
-    border-top-left-radius:5px
+    border-top-left-radius:5px;
 }
 
 #navContainer {
@@ -53,7 +53,7 @@ ul li a {
   	top: .1%;
   	transform: translateY(-.1%);
     margin-left:10%;
-    border-top-left-radius:5px
+    border-top-left-radius:5px;
 }
 
 #centContainer {
@@ -81,27 +81,27 @@ ul li a {
     width:100%;
     background-color:#0065A9;
     border-top-left-radius:5px;
-    border-bottom-left-radius:5px
+    border-bottom-left-radius:5px;
 }
 
 footer {
     margin-left:12%;
-    margin-top:46%
+    margin-top:46%;
 }
 
 #footPara {
     font-family:'Roboto Condensed',sans-serif;
-    color:#fff
+    color:#fff;
 }
 
 #logoImg {
     display:inline;
-    float:left
+    float:left;
 }
 
 #footWords {
     display:inline;
-    text-align:center
+    text-align:center;
 }
 
 #lowerBodyWrap {
@@ -112,15 +112,15 @@ footer {
     bottom:0;
     left:200px;
     border-top-right-radius:5px;
-    border-top-left-radius:5px
+    border-top-left-radius:5px;
 }
 
 ol {
-    list-style-position:inside
+    list-style-position:inside;
 }
 
 .boldTxt {
-    font-weight:700
+    font-weight:700;
 }
 
 #policyTitle {
@@ -128,7 +128,7 @@ ol {
     border-left:10%;
     top:45px;
     text-align:center;
-    font-size:3em
+    font-size:3em;
 }
 
 #policyPara {
@@ -138,7 +138,7 @@ ol {
 }
 
 #policyContent {
-    display:none
+    display:none;
 }
 
 .fStyle {
@@ -150,7 +150,7 @@ ol {
     position:relative;
     top:45px;
     text-align:center;
-    font-size:1.3em
+    font-size:1.3em;
 }
 .listStyle {
 	border-top: 1%;
