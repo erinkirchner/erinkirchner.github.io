@@ -170,5 +170,5 @@ ol {
 .mapWidget {
 	position: relative;
 	left: 10%;
-	top:20%;
+	margin-top:20%;
 }
