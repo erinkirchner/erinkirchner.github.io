@@ -41,6 +41,8 @@ ul li a {
 	background-color: #0065A9;
 	float: right;
 	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	z-index:1;
 	
 }
 #navWrap {
@@ -51,6 +53,7 @@ ul li a {
 	background-color: #0065A9;
 	float: right;
 	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
 }
 #navContainer {
 	margin-left: 10%;
