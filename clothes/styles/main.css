@@ -160,11 +160,13 @@ ol {
 }
 .mapWidgetCont {
 	max-height: 330px;
-	overflow-y: scroll;
+	
 }
 .mapWidget {
 	position: relative;
 	left: 27%;
 	margin-top:3%;
+	overflow: scroll;
+	
 	
 }
