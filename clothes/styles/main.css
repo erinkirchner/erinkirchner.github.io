@@ -161,7 +161,7 @@ ol {
 .mapWidget {
 	position: relative;
 	left: 27%;
-	margin-top:8%;
+	margin-top:5%;
 	max-height: 330px;
 	overflow-y: scroll;
 }
