@@ -42,7 +42,7 @@ ul li a {
 	float: right;
 	border-bottom-left-radius: 5px;
 	border-top-left-radius: 5px;
-	z-index:1;
+
 	
 }
 #navWrap {
@@ -110,3 +110,37 @@ footer {
 	border-top-left-radius: 5px;
 }
 
+ol {
+	list-style-position: inside;
+}
+.boldTxt {
+	font-weight: bold;
+}
+#policyTitle {
+	position:relative;
+	border-left:10%;
+	top:45;
+	text-align: center;
+	font-size: 3em;
+	
+}
+#policyPara {
+	position: relative;
+	left: 10;
+	top: 50;
+	
+}
+#policyContent {
+	display: none;
+}
+
+.fStyle {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #0065A9;
+}
+#contactPara {
+	position: relative;
+	top:45;
+	text-align: center;
+	font-size: 1.3em;
+}
