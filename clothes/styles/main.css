@@ -164,9 +164,11 @@ ol {
 	left: 27%;
 	margin-top:3%;
 	max-height: 330px;
-	overflow: auto;
+
 	
 }
 .mapScroll {
+	overflow:visible;
+	overflow-y:auto;
 
 }
