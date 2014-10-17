@@ -172,5 +172,5 @@ ol {
 	max-height: 330px;
 	left: 27%;
 	margin-top:7%;
-	overflow-y: scroll;
+	overflow: auto;
 }
