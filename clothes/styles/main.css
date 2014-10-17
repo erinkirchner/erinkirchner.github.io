@@ -169,6 +169,7 @@ ol {
 }
 .mapWidget {
 	position: relative;
+	max-height: 320px;
 	left: 27%;
 	margin-top:7%;
 	overflow: auto;
