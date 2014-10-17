@@ -162,6 +162,6 @@ ol {
 	position: relative;
 	left: 27%;
 	margin-top:7%;
-	height: 330px;
+	max-height: 330px;
 	overflow-y: auto;
 }
