@@ -171,5 +171,8 @@ ol {
 	position: relative;
 	left: 27%;
 	margin-top:7%;
-	overflow-y:scroll;
 }
+#contactContainer {
+	overflow-y:scroll;
+
+}	
