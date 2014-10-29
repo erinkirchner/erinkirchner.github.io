@@ -1,14 +1,10 @@
 $(document).ready(function() {
 
 	$('#policy').on("click", function() {
-        
         $('#policyContent').fadeIn(1000);
-        
     });
     $('#location').on("click", function() {
-        
         $('#contactContent').fadeIn(1000);
-
     });
 });
 
@@ -22,7 +18,4 @@ $(document).ready(function() {
 	);
 */
 
-function clearMain () {
-    $('#lowerBodyWrap').empty();
-}
 
