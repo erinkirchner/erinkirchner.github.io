@@ -17,18 +17,18 @@ $(document).ready(function() {
 function init () {
     $('#policy').on("click", function() {
        
-        $('#policyContent').fadeIn(1000);
+        $('#policyContent').slideDown(1000);
     });
 
     $('#location').on("click", function() {
         
-        $('#contactContent').fadeIn(1000);
+        $('#contactContent').slideDown(1000);
     });
 }
 
 function clearBox () {
     $("a.listStyle").on("click", function() {
-        $('#policyContent').empty();
-        $('#contactContent').empty();
+        $('#policyContent').slideUp();
+        $('#contactContent').slideUp();
     });
 }
