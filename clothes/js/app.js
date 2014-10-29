@@ -1,14 +1,15 @@
 $(document).ready(function() {
-     $('#contactContent').remove();
+
 	$('#policy').on("click", function() {
        
         $('#policyContent').fadeIn(1000);
     });
-    $('#policyContent').remove();
+
     $('#location').on("click", function() {
         
         $('#contactContent').fadeIn(1000);
     });
+    clearBox();
 });
 
 /*$.ajax(
@@ -21,4 +22,9 @@ $(document).ready(function() {
 	);
 */
 
-
+function clearBox () {
+    $("a.listStyle").on("click", function() {
+        $('#policyContent').fadeOut(1000);
+        $('#contactContent').fadeOut(1000);
+    });
+}
