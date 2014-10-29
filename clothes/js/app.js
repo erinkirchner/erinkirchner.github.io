@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
 	$('#policy').on("click", function() {
-        $('#contactContent').fadeOut(1000);
+        $('#contactContent').remove();
         $('#policyContent').fadeIn(1000);
     });
     $('#location').on("click", function() {
-        $('#policyContent').fadeOut(1000);
+        $('#policyContent').remove();
         $('#contactContent').fadeIn(1000);
     });
 });
