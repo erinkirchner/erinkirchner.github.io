@@ -126,9 +126,9 @@ footer {
     left:200px;
     border-top-right-radius:5px;
     border-top-left-radius:5px;
-    -webkit-box-shadow: 6px -6px 6px -6px black;
-       -moz-box-shadow: 6px -6px 6px -6px black;
-            box-shadow: 6px -6px 6px -6px black;
+    -webkit-box-shadow: 6px -6px 6px -6px #8f0c4b;
+       -moz-box-shadow: 6px -6px 6px -6px #8f0c4b;
+            box-shadow: 6px -6px 6px -6px #8f0c4b;
 
 }
 
