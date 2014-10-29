@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('#policy').on("click" (function() {
+	$('#policy').on("click", function() {
         $('#policyContent').fadeIn(1000);
 });
 
