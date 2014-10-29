@@ -154,8 +154,9 @@ ol {
     top:50px
 }
 
-#policyContent {
+.policyContent {
     display:none;
+    z-index: 1000;
 }
 
 .fStyle {

@@ -1,6 +1,6 @@
 $(document).ready(function() {
-	$("#policy").click(function() {
-        $("#policyContent").fadeIn(1000);
+	$("a.policy").click(function() {
+        $(".policyContent").fadeIn(1000);
 });
 
 });
