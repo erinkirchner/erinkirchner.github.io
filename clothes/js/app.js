@@ -1,12 +1,14 @@
 $(document).ready(function() {
 
 	$('#policy').on("click", function() {
-        clearMain();
+        
         $('#policyContent').fadeIn(1000);
+        clearMain();
     });
     $('#location').on("click", function() {
-        clearMain();
+        
         $('#contactContent').fadeIn(1000);
+        clearMain();
     });
 });
 
