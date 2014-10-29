@@ -15,7 +15,7 @@ $(document).ready(function() {
 function init() {
 
 $("#policy").click(function() {
-	$("#policyPara").fadeIn(1000);
+	$("#policyContent").fadeIn(1000);
 });
 
 }
