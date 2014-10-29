@@ -1,14 +1,6 @@
 $(document).ready(function() {
 
-	$('#policy').on("click", function() {
-       
-        $('#policyContent').fadeIn(1000);
-    });
-
-    $('#location').on("click", function() {
-        
-        $('#contactContent').fadeIn(1000);
-    });
+	init();
     clearBox();
 });
 
@@ -21,6 +13,17 @@ $(document).ready(function() {
 	dataType: 'jsonp'
 	);
 */
+function init () {
+    $('#policy').on("click", function() {
+       
+        $('#policyContent').fadeIn(1000);
+    });
+
+    $('#location').on("click", function() {
+        
+        $('#contactContent').fadeIn(1000);
+    });
+}
 
 function clearBox () {
     $("a.listStyle").on("click", function() {
