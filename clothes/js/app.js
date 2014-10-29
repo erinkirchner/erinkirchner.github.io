@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    clearBox();
+    
 	init();
     
 });
@@ -15,12 +15,12 @@ $(document).ready(function() {
 */
 function init () {
     $('#policy').on("click", function() {
-       
+       clearBox();
         $('#policyContent').fadeIn(1000);
     });
 
     $('#location').on("click", function() {
-        
+        clearBox();
         $('#contactContent').fadeIn(1000);
     });
 }
