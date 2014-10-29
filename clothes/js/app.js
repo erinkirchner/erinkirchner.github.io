@@ -1,11 +1,12 @@
 $(document).ready(function() {
-
+     $('#contactContent').remove();
 	$('#policy').on("click", function() {
-        $('#contactContent').remove();
+       
         $('#policyContent').fadeIn(1000);
     });
+    $('#policyContent').remove();
     $('#location').on("click", function() {
-        $('#policyContent').remove();
+        
         $('#contactContent').fadeIn(1000);
     });
 });
