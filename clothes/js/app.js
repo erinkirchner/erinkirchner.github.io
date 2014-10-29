@@ -1,7 +1,7 @@
 $(document).ready(function() {
-
-	init();
     clearBox();
+	init();
+    
 });
 
 /*$.ajax(
