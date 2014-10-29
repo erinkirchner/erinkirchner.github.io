@@ -1,5 +1,6 @@
 $(document).ready(function() {
-    
+
+    clearBox();
 	init();
     
 });
@@ -15,19 +16,19 @@ $(document).ready(function() {
 */
 function init () {
     $('#policy').on("click", function() {
-       clearBox();
+       
         $('#policyContent').fadeIn(1000);
     });
 
     $('#location').on("click", function() {
-        clearBox();
+        
         $('#contactContent').fadeIn(1000);
     });
 }
 
 function clearBox () {
     $("a.listStyle").on("click", function() {
-        $('#policyContent').fadeOut(1000);
-        $('#contactContent').fadeOut(1000);
+        $('#policyContent').remove();
+        $('#contactContent').remove();
     });
 }
