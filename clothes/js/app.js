@@ -1,8 +1,11 @@
 $(document).ready(function() {
+
 	$('#policy').on("click", function() {
+        clearMain();
         $('#policyContent').fadeIn(1000);
     });
     $('#location').on("click", function() {
+        clearMain();
         $('#contactContent').fadeIn(1000);
     });
 });
@@ -17,5 +20,7 @@ $(document).ready(function() {
 	);
 */
 
-
+function clearMain () {
+    $('#lowerBodyWrap').empty();
+}
 
