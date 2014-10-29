@@ -28,7 +28,7 @@ function init () {
 
 function clearBox () {
     $("a.listStyle").on("click", function() {
-        $('#policyContent').remove();
-        $('#contactContent').remove();
+        $('#policyContent').empty();
+        $('#contactContent').empty();
     });
 }
