@@ -1,5 +1,8 @@
 $(document).ready(function() {
-	init();
+	$("#policy").click(function() {
+        $("#policyContent").fadeIn(1000);
+});
+
 });
 
 /*$.ajax(
@@ -12,10 +15,5 @@ $(document).ready(function() {
 	);
 */
 
-function init() {
 
-$("#policy").click(function() {
-	$("#policyContent").fadeIn(1000);
-});
 
-}
