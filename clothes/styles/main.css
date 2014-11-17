@@ -226,6 +226,7 @@ input {
     height: 250px;
     width: 100px;
     margin-top:15%;
+    margin-left:0;
     background-color: #0065A9;
     float:left;
     z-index: 2;
