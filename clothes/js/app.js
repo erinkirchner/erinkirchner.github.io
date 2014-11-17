@@ -37,5 +37,6 @@ function clearBox () {
     $("a.listStyle").on("click", function() {
         $('#policyContent').slideUp();
         $('#contactContent').slideUp();
+        $('#aboutContent').slideUp();
     });
 }

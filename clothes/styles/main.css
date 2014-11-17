@@ -246,3 +246,16 @@ input {
 #aboutContent {
     display: none;
 }
+#aboutTitle {
+    position:relative;
+    border-left:10%;
+    top:45px;
+    text-align:center;
+    font-size:3em;
+}
+
+#aboutPara {
+    position:relative;
+    left:10px;
+    top:50px
+}
