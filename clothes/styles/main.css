@@ -217,3 +217,32 @@ input {
 
 
 }
+#picSlider {
+    position: relative;
+    
+}
+.picSliderWrapIn {
+    position: relative;
+    height: 250px;
+    width: 100px;
+    margin-top:15%;
+    background-color: #0065A9;
+    float:left;
+    z-index: 2;
+}
+.picSliderWrapOut {
+    position: relative;
+    height:250px;
+    width:800px;
+    
+    margin-top:15%;
+    margin-left:0;
+    background-color:#0065A9;
+    float:left;
+    z-index: 2;
+
+  
+}
+#aboutContent {
+    display: none;
+}

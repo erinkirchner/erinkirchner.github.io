@@ -24,6 +24,13 @@ function init () {
         
         $('#contactContent').slideDown(1000);
     });
+    $('#about').on("click", function() {
+
+        $('#aboutContent').slideDown(1000);
+    });
+    $('#picSliderWrap').on("click", function() {
+        this.toggleClass("picSliderWrapOut");
+    });
 }
 
 function clearBox () {
