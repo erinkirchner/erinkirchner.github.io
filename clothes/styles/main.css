@@ -244,6 +244,9 @@ input {
 
   
 }
+#slideshow {
+    display: none;
+}
 #aboutContent {
     display: none;
 }
