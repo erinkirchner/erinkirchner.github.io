@@ -29,7 +29,7 @@ function init () {
         $('#aboutContent').slideDown(1000);
     });
     $('#picSliderWrap').on("click", function() {
-        this.toggleClass("picSliderWrapOut");
+        $(this).toggleClass("picSliderWrapOut");
     });
 }
 
