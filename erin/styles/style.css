@@ -83,6 +83,7 @@ nav a {
 	
 	float: left;
 	clear:left;
+	overflow: scroll;
 	
 }
 .overlay2 {
