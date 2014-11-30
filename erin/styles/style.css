@@ -90,7 +90,7 @@ nav a {
 	
 }
 #resumeContent {
-	overflow:auto;	
+	overflow-x:scroll;	
 }
 .overlay2 {
 	display: none;
