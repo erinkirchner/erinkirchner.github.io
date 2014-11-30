@@ -219,6 +219,8 @@ input {
 }
 #picSlider {
     position: relative;
+    -webkit-animation:;
+            animation:;
     
 }
 .picSliderWrapIn {
