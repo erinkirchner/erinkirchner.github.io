@@ -88,7 +88,7 @@ nav a {
 	
 }
 #resumeContent {
-	overflow:scroll;
+	
 }
 .overlay2 {
 	display: none;
@@ -126,7 +126,7 @@ nav a {
 .dirText1 {
 	width: 90%;
 	margin-left:2%;
-	
+	overflow:scroll;
 }
 
 .dirText2 {
