@@ -38,7 +38,7 @@ nav {
 	height: 10%;
 	padding: 1em 1em 2em 1em;
 	/*border-bottom: 1px solid #000;*/
-	overflow: hidden;
+
 	
 }
 .leftNav {
@@ -84,8 +84,11 @@ nav a {
 	
 	float: left;
 	clear:left;
-	overflow: auto;
 	
+	
+}
+#resumeContent {
+	overflow:scroll;
 }
 .overlay2 {
 	display: none;
