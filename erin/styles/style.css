@@ -331,10 +331,11 @@ a.email {
 	border-radius: 5px;
 	margin-top: 5%;
 }
-.portfolioItem:hover {
+div.portfolioItem:hover {
 	width:90%;
 	height:75%;
 	background-color: #5C9EFE;
 	border-radius: 5px;
 	margin-top: 5%;
+	z-index: 1000;
 }
