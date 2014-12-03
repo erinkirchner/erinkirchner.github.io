@@ -64,6 +64,10 @@ nav ul li {
 nav a {
 	color: #5C9EFE;
 }
+a.rightNav:hover {
+	font-size: 1.6em;
+	color:#d6b418;
+}
 
 #borderLine {
 	height: 1px;
