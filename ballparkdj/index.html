@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Ballpark DJ</title>
+    <meta charset="utf-8"><!--Stylesheets-->
+    <link href="styles/reset.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Graduate' rel=
+    'stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Molengo' rel=
+    'stylesheet' type='text/css'>
+    <link href="styles/style.css" rel="stylesheet"><!--JavaScript-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/app2.js" type="text/javascript"></script>
+    <script src="//connect.soundcloud.com/sdk.js"></script>
+</head>
+
+<body>
+    <!--header-->
+
+    <header>
+        <!--navigation-->
+
+        <nav>
+            <ul class="navListStyles">
+                <li><a class="howTo" href="#">What Is This?</a></li>
+
+                <li><a class="clear" href="#">Reset</a></li>
+            </ul>
+        </nav><!--What Do I Do? Overlay-->
+
+        <div class="overlay1" id="overlayContainer">
+            <div id="overlayTitleContainer">
+                <p id="instTitle">What Is This?</p>
+            </div>
+
+            <div id="overlayContentContainer">
+                <p class="instText"><span class="howIt">It's
+                simple!</span></p><br>
+
+                <p class="instText"><span class="boldTxt">Batter Up!</span> is
+                an application that allows you to access a <span class=
+                "boldTxt">Last.fm</span> playlist containing<br>
+                the walk-up song(s) of a given MLB player, as well as stats and
+                general player information.<br>
+                <br>
+                <br>
+                <span class="howIt">How it works:</span></p><br>
+
+                <div id="ordListContainer">
+                    <ol class="listClass">
+                        <li>Select a team from the first dropdown
+                        list.<br></li>
+
+                        <li>Select a player from the second dropdown
+                        list.<br></li>
+
+                        <li>Click the 'Find Player' button.<br>
+                        <br></li>
+                    </ol>
+                </div>
+
+                <p class="instText"><span class="boldTxt">That's it!</span><br>
+                Your selected player's stats, info, and playlist will appear on
+                the right side of the screen.</p><br>
+                <br>
+
+                <div id="overlayReturnButton">
+                    <div id="btnTxtContainer">
+                        <p><a class="back" href="">Back</a></p>
+                    </div>
+                </div>
+            </div>
+        </div><!--Color Scheme Overlay
+
+        <div class="overlay2" id="colorOverlay">
+            <div id="colorTitleContainer">
+                <p id="colorTitle">Can I Change My Scheme to Rep My
+                Team?</p><br>
+                <br>
+            </div>
+
+            <div id="colorText">
+                <p class="instText">You bet! Just select a team from the list
+                below and click the 'Change Scheme' button.</p>
+            </div>
+
+            <div id="colorFormContainer">
+                <form>
+                    <div id="alTeams">
+                        <div id="alEastDivis">
+                            <p><span class="divsSpans">AL East</span></p>
+                            <!--AL East-->
+                           <!-- <input name="team" type="radio" value=
+                            "Orioles">Baltimore Orioles<br>
+                            <input name="team" type="radio" value=
+                            "RedSox">Boston Red Sox<br>
+                            <input name="team" type="radio" value="Yankees">New
+                            York Yankees<br>
+                            <input name="team" type="radio" value="Rays">Tampa
+                            Bay Rays<br>
+                            <input name="team" type="radio" value=
+                            "BlueJays">Toronto Blue Jays<br>
+                        </div>
+
+                        <div id="alCentralDivis">
+                            <p><span class="divsSpans">AL Central</span></p>-->
+                            <!--AL Central-->
+                            <!--<input name="team" type="radio" value=
+                            "WhiteSox">Chicago White Sox<br>
+                            <input name="team" type="radio" value=
+                            "Indians">Cleveland Indians<br>
+                            <input name="team" type="radio" value=
+                            "Tigers">Detroit Tigers<br>
+                            <input name="team" type="radio" value=
+                            "Royals">Kansas City Royals<br>
+                            <input name="team" type="radio" value=
+                            "Twins">Minnesota Twins<br>
+                        </div>-->
+
+                        <!--<div id="alWestDivis">
+                            <p><span class="divsSpans">AL West</span></p>
+                            <!--AL West-->
+                            <!--<input name="team" type="radio" value=
+                            "Astros">Houston Astros<br>
+                            <input name="team" type="radio" value="Angels">Los
+                            Angeles Angels<br>
+                            <input name="team" type="radio" value=
+                            "Athletics">Oakland Athletics<br>
+                            <input name="team" type="radio" value=
+                            "Mariners">Seattle Mariners<br>
+                            <input name="team" type="radio" value=
+                            "Rangers">Texas Rangers<br>
+                        </div>-->
+                    <!--</div>
+
+                    <div id="nlTeams">
+                        <div id="nlEastDivis">
+                            <p><span class="divsSpans">NL East</span></p>-->
+                            <!--NL East -->
+                           <!-- <input name="team" type="radio" value=
+                            "Braves">Atlanta Braves<br>
+                            <input name="team" type="radio" value=
+                            "Marlins">Miami Marlins<br>
+                            <input name="team" type="radio" value="Mets">New
+                            York Mets<br>
+                            <input name="team" type="radio" value=
+                            "Phillies">Philadelphia Phillies<br>
+                            <input name="team" type="radio" value=
+                            "Nationals">Washinton Nationals<br>
+                        </div>
+
+                        <div id="nlCentralDivis">
+                            <p><span class="divsSpans">NL Central</span></p>-->
+                            <!--NL Central -->
+                            <!--<input name="team" type="radio" value=
+                            "Cubs">Chicago Cubs<br>
+                            <input name="team" type="radio" value=
+                            "Reds">Cincinnati Reds<br>
+                            <input name="team" type="radio" value=
+                            "Brewers">Milwaukee Brewers<br>
+                            <input name="team" type="radio" value=
+                            "Pirates">Pittsburgh Pirates<br>
+                            <input name="team" type="radio" value=
+                            "Cardinals">St. Louis Cardinals<br>
+                        </div>
+
+                        <div id="nlWestDivis">
+                            <p><span class="divsSpans">NL West</span></p>-->
+                            <!--NL West-->
+                           <!-- <input name="team" type="radio" value=
+                            "Diamondbacks">Arizona Diamondbacks<br>
+                            <input name="team" type="radio" value=
+                            "Rockies">Colorado Rockies<br>
+                            <input name="team" type="radio" value="Dodgers">Los
+                            Angeles Dodgers<br>
+                            <input name="team" type="radio" value="Padres">San
+                            Diego Padres<br>
+                            <input name="team" type="radio" value="Giants">San
+                            Francisco Giants<br>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="backButton" id="colorReturnButton">
+                <br>
+                Back
+            </div>
+
+            <div id="colorChangeButton">
+                <br>
+                Change Scheme
+            </div>
+        </div>-->
+    </header><!--form section-->
+
+    <section class="mainBody">
+        <div id="bodyContainer">
+            <div id="titleContainer">
+                <p class="titleLine">Batter Up!</p>
+            </div>
+
+            <div id="sidesContainer">
+                <div class="appContainer" id="leftSide">
+                    <!-- <form>
+                        <div id="teamSelect">
+                            <select class="textInputs" id="teamName">
+                                <option disabled selected value="">
+                                    Select a Team...
+                                </option>
+
+                                <option value="Diamondbacks">
+                                    Arizona Diamondbacks
+                                </option>
+
+                                <option value="Braves">
+                                    Atlanta Braves
+                                </option>
+
+                                <option value="Orioles">
+                                    Baltimore Orioles
+                                </option>
+
+                                <option value="RedSox">
+                                    Boston Red Sox
+                                </option>
+
+                                <option value="Cubs">
+                                    Chicago Cubs
+                                </option>
+
+                                <option value="WhiteSox">
+                                    Chicago White Sox
+                                </option>
+
+                                <option value="Reds">
+                                    Cincinnati Reds
+                                </option>
+
+                                <option value="Indians">
+                                    Cleveland Indians
+                                </option>
+
+                                <option value="Rockies">
+                                    Colorado Rockies
+                                </option>
+
+                                <option value="Tigers">
+                                    Detroit Tigers
+                                </option>
+
+                                <option value="Astros">
+                                    Houston Astros
+                                </option>
+
+                                <option value="Royals">
+                                    Kansas City Royals
+                                </option>
+
+                                <option value="Angels">
+                                    Los Angeles Angels
+                                </option>
+
+                                <option value="Dodgers">
+                                    Los Angeles Dodgers
+                                </option>
+
+                                <option value="Marlins">
+                                    Miami Marlins
+                                </option>
+
+                                <option value="Brewers">
+                                    Milwaukee Brewers
+                                </option>
+
+                                <option value="Twins">
+                                    Minnesota Twins
+                                </option>
+
+                                <option value="Mets">
+                                    New York Mets
+                                </option>
+
+                                <option value="Yankees">
+                                    New York Yankees
+                                </option>
+
+                                <option value="Athletics">
+                                    Oakland Athletics
+                                </option>
+
+                                <option value="Phillies">
+                                    Philadelphia Phillies
+                                </option>
+
+                                <option value="Pirates">
+                                    Pittsburgh Pirates
+                                </option>
+
+                                <option value="Padres">
+                                    San Diego Padres
+                                </option>
+
+                                <option value="Giants">
+                                    San Francisco Giants
+                                </option>
+
+                                <option value="Mariners">
+                                    Seattle Mariners
+                                </option>
+
+                                <option value="Cardinals">
+                                    St. Louis Cardinals
+                                </option>
+
+                                <option value="Rays">
+                                    Tampa Bay Rays
+                                </option>
+
+                                <option value="Rangers">
+                                    Texas Rangers
+                                </option>
+
+                                <option value="BlueJays">
+                                    Toronto Blue Jays
+                                </option>
+
+                                <option value="Nationals">
+                                    Washington Nationals
+                                </option>
+                            </select><br>
+                            <br>
+                            <button class="button" id="teamButton" type=
+                            "submit">Select Team</button><br>
+                            <br>
+                            <br>
+                            <br>
+                        </div>-->
+
+                    <div id="playerSelect">
+                        <select class="textInputs" id="playerName">
+                            <option value="select" id="startingName">
+                                Select a Player...
+                            </option>
+
+                            <option value="Bianchi">
+                                Jeff Bianchi
+                            </option>
+
+                            <option value="Braun">
+                                Ryan Braun
+                            </option>
+
+                            <option value="Davis">
+                                Khris Davis
+                            </option>
+
+                            <option value="Estrada">
+                                Marco Estrada
+                            </option>
+
+                            <option value="Gallardo">
+                                Yovani Gallardo
+                            </option>
+
+                            <option value="Garza">
+                                Matt Garza
+                            </option>
+
+                            <option value="Gennett">
+                                Scooter Gennett
+                            </option>
+
+                            <option value="Gomez">
+                                Carlos Gomez
+                            </option>
+
+                            <option value="Lohse">
+                                Kyle Lohse
+                            </option>
+
+                            <option value="Lucroy">
+                                Jonathan Lucroy
+                            </option>
+
+                            <option value="Maldonado">
+                                Martin Maldonado
+                            </option>
+
+                            <option value="Overbay">
+                                Lyle Overbay
+                            </option>
+
+                            <option value="Peralta">
+                                Wily Peralta
+                            </option>
+
+                            <option value="Reynolds">
+                                Mark Reynolds
+                            </option>
+
+                            <option value="Schafer">
+                                Logan Schafer
+                            </option>
+
+                            <option value="Segura">
+                                Jean Segura
+                            </option>
+
+                            <option value="Weeks">
+                                Rickie Weeks
+                            </option>
+                        </select><br>
+                        <br>
+                        <input class="button" id="guessButton" name="submit"
+                        type="submit" value="Find Player">
+                    </div>
+                </div><!--Playlist Section-->
+
+                <div class="appConatiner" id="rightSide">
+                    <div id="insAppContainer">
+                        <div id="playButton">
+                            <div id="playSymbol"></div>
+                        </div>
+
+                        <div id="stopButton">
+                            <div id="stopSymbol"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--<div id="footContainer">
+        <footer>
+            <!==navigation-->
+    <!--<nav>
+                <ul class="navListStyles2">
+                    <li><a class="contact" href="#">Contact</a></li>
+                    <!==<li><a class="homeButton" href="#">Home</a><li>-->
+    <!--<li><a class="colorScheme" href="#">Change Color
+                    Scheme</a></li>
+                </ul>
+            </nav>
+        </footer>-->
+</body>
+</html>

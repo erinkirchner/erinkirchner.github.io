@@ -1,0 +1,417 @@
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #92754C;
+}
+
+.navListStyles {
+    position: relative;
+}
+
+.navListStyles li {
+    display: inline;
+    font-family: Graduate, sans-serif;
+    font-size: 1.3em;
+    padding: 1em;
+}
+
+#footContainer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.navListStyles2 li {
+    font-family: Graduate, sans-serif;
+    font-size: 1.3em;
+    padding: 1em;
+
+}
+
+.navListStyles li:first-child {
+    float: left;
+}
+
+.navListStyles li:last-child {
+    float: right;
+}
+
+.navListStyles2 li:first-child {
+    float: left;
+}
+
+.navListStyles2 li:last-child {
+    float: right;
+}
+
+#bodyContainer {
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    left: 5%;
+    top: 10%;
+    background-color: #182B49;
+    border: 4px solid #92754C;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin: 0 auto;
+    overflow-y: hidden;
+    z-index: 1;
+}
+
+#titleContainer {
+    position: relative;
+    height: 15%;
+    width: 100%;
+    padding-top: 1.8%;
+    text-align: center;
+}
+
+.titleLine {
+    font-family: Graduate, sans-serif;
+    font-size: 4em;
+    color:#92754C;
+}
+
+#sidesContainer {
+    width: 100%;
+    height: 98%;
+    overflow: auto;
+}
+
+#leftSide {
+    display: inline-block;
+    position: relative;
+    width: 49%;
+    height: 81%;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #000;
+    margin-left: 8px;
+    float: left;
+}
+
+#rightSide {
+    display: inline-block;
+    position: relative;
+    width: 49%;
+    height: 81%;
+    background-color: #FFFFFF;
+    float: right;
+    border-radius: 4px;
+    z-index: 1;
+    border: 1px solid #92754C;
+    margin-right: 8px;
+}
+
+.textInputs {
+    position: relative;
+    margin-top: 25%;
+    height: 2em;
+    width: 17em;
+    border-radius: 4px;
+    color: #92754C;
+    font-family: Graduate, sans-serif;
+    font-size: 1.3em;
+}
+
+#teamName {
+    position: relative;
+    margin-top: 15%;
+    left: 20%;
+}
+
+#playerName {
+    position: relative;
+    left: 20%;
+}
+
+#guessButton {
+    position: relative;
+    width: 17em;
+    height: 2em;
+    left: 20%;
+    border-radius: 4px;
+    font-family: Graduate, sans-serif;
+    font-size: 1.3em;
+    color: #92754C;
+    background-color: #182B49;
+    border: 2px solid #92754C;
+}
+
+#teamButton {
+    position: relative;
+    width: 17em;
+    height: 2em;
+    left: 20%;
+    border-radius: 4px;
+    font-family: Graduate, sans-serif;
+    font-size: 1.3em;
+    color: #92754C;
+    background-color: #182B49;
+    border: 2px solid #92754C;
+}
+
+#overlayContainer {
+    position: absolute;
+    background-color: #FFFFFF;
+    border: 4px solid #182B49;
+    width: 90%;
+    height: 80%;
+    left: 5%;
+    top: 10%;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin: 0 auto;
+    overflow-y: hidden;
+    z-index: 1000;
+    display: none;
+}
+
+#instTitle {
+    font-family: Graduate, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: #92754C;
+}
+
+#overlayTitleContainer {
+    position: relative;
+    width: 100%;
+    padding-top: 3%;
+}
+
+.instText {
+    font-family: Molengo, sans-serif;
+    font-size: 1.2em;
+}
+
+#overlayContentContainer {
+    text-align: center;
+    padding-top: 4%;
+}
+
+#ordListContainer ol {
+    list-style-position: inside;
+    list-style-type: decimal;
+    font-family: Molengo, sans-serif;
+    font-size: 1.3em;
+    bottom: 0;
+}
+
+.howIt {
+    font-size: 1.6em;
+}
+
+.boldTxt {
+    font-weight: 700;
+}
+
+#overlayReturnButton {
+    position: absolute;
+    left: 45%;
+    height: 7%;
+    width: 10%;
+    background-color: #182B49;
+    border-radius: 4px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    border: 1px solid #92754C;
+}
+
+#overlayReturnButton a {
+    font-family: Graduate, sans-serif;
+    font-size: 1.5em;
+    color: #92754C;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 28px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+#btnTxtContainer {
+    padding: .2em;
+}
+
+#colorOverlay {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    border: 4px solid #182B49;
+    width: 90%;
+    height: 80%;
+    left: 5%;
+    top: 10%;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin: 0 auto;
+    overflow-y: hidden;
+    z-index: 1000;
+}
+
+#colorTitle {
+    font-family: Graduate, sans-serif;
+    font-size: 2.6em;
+    text-align: center;
+    color: #92754C;
+}
+
+#colorTitleContainer {
+    position: relative;
+    width: 100%;
+    padding-top: 3%;
+}
+
+#colorText {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+#colorFormContainer {
+    position: absolute;
+    left: 15%;
+    padding-top: 5%;
+    font-family: Molengo, sans-serif;
+    font-size: 1.2em;
+    color: #92754C;
+}
+
+#alTeams {
+    width: 100%;
+}
+
+#nlTeams {
+    width: 100%;
+}
+
+#nlEastDivis {
+    display: inline-block;
+    padding: 25px 85px 0 50px;
+}
+
+#alEastDivis {
+    display: inline-block;
+    padding: 0 50px 25px;
+}
+
+#nlCentralDivis {
+    display: inline-block;
+    padding: 25px 50px 0 0;
+}
+
+#alCentralDivis {
+    display: inline-block;
+    padding: 0 50px 25px;
+}
+
+#nlWestDivis {
+    display: inline-block;
+    padding: 25px 65px 0 45px;
+}
+
+#alWestDivis {
+    display: inline-block;
+    padding: 0 50px 25px;
+}
+
+.divsSpans {
+    text-align: center;
+    color: #182B49;
+}
+
+#colorChangeButton {
+    position: absolute;
+    right: 5%;
+    bottom: 25%;
+    width: 12%;
+    height: 10%;
+    background-color: #182B49;
+    border-radius: 4px;
+    font-family: Graduate, sans-serif;
+    font-size: 1em;
+    border: 1px solid #92754C;
+    text-align: center;
+}
+
+#colorReturnButton {
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    width: 12%;
+    height: 10%;
+    background-color: #182B49;
+    border-radius: 4px;
+    font-family: Graduate, sans-serif;
+    font-size: 1em;
+    border: 1px solid #92754C;
+    text-align: center;
+}
+
+.homeButton {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#playButton {
+    position: relative;
+    height: 2em;
+    width: 8em;
+    margin-top: 30%;
+    margin-left: 20%;
+    border-radius: 4px;
+    float: left;
+    background-color: #182B49;
+    border: 2px solid #92754C;
+}
+
+#stopButton {
+    position: relative;
+    height: 2em;
+    width: 8em;
+    margin-top: 30%;
+    border-radius: 4px;
+    float: right;
+    margin-right: 20%;
+    background-color: #182B49;
+    border: 2px solid #92754C;
+}
+
+#playSymbol {
+    position: relative;
+    border-radius: 2px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+    border-left: 13px solid #92754C;
+    margin-left: 47%;
+    margin-top: 3%;
+}
+
+#stopSymbol {
+    position: relative;
+    width: 1.1em;
+    height: 1.1em;
+    margin-top: 5%;
+    margin-left: 45%;
+    background-color: #92754C;
+    border-radius: 2px;
+}
+#insAppContainer p {
+	font-family: Molengo, sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	color: #182B49;
+}
