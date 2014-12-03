@@ -332,6 +332,8 @@ a.email {
 	margin-top: 5%;
 }
 div.portfolioItem:hover {
+	position: fixed;
+	left: 5%;
 	width:90%;
 	height:75%;
 	background-color: #5C9EFE;
