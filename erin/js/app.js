@@ -4,7 +4,7 @@ $(document).ready(function() {
 });
 
 function init() {
-
+	$("#portfolioContent").fadeIn(1000);
 	$("#contact").on("click", function() {
 		
 		$("#contactContent").fadeIn(1000);
