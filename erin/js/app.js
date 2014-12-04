@@ -16,7 +16,7 @@ function init() {
 	$("#nameMain").on("click", function() {
 
 		$("#portfolioContent").fadeIn(1000);
-	})
+	});
 }
 
 function clearBody() {
