@@ -112,6 +112,7 @@ a.rightNav:hover {
 	border-bottom-left-radius: 4px;*/
 }
 .overlay3 {
+	display:none;
 	width:100%;
 	height:90%;
 	background: #effff3;
