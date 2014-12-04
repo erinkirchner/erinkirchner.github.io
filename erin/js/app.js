@@ -13,11 +13,15 @@ function init() {
 		
 		$("#resumeContent").fadeIn(1000);
 	});
+	$("#nameMain").on("click", function() {
+
+		$("#portfolioContent").fadeIn(1000);
+	})
 }
 
 function clearBody() {
 	$("a.listMember").on("click", function() {
-		$(".overlay3").fadeOut(1000);
+		$("#portfolioContent").fadeOut(1000);
 		$("#contactContent").fadeOut(1000);
 		$("#resumeContent").fadeOut(1000);
 		

@@ -112,7 +112,7 @@ a.rightNav:hover {
 	border-bottom-left-radius: 4px;*/
 }
 .overlay3 {
-	display:none;
+
 	width:100%;
 	height:90%;
 	background: #effff3;
@@ -121,6 +121,9 @@ a.rightNav:hover {
 	left: 0;
 	margin-top: 2%;
 	
+}
+.dispClass {
+	display: none;
 }
 .direct {
 	background: #FFFFD6;
