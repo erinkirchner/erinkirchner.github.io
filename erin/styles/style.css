@@ -334,8 +334,8 @@ a.email {
 
 .portfolioItem {
 	display: inline-block;
-	width: 30%;
-	height: 35%;
+	max-width: 30%;
+	max-height: 35%;
 	background-color: #000;
 	border-radius: 5px;
 	margin-top: 5%;
