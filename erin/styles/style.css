@@ -337,6 +337,7 @@ a.email {
 	width: 30%;
 	height: 35%;
 	background-color: #000;
+	border:1px solid #d7e5da;
 	border-radius: 5px;
 	margin-top: 5%;
 }
