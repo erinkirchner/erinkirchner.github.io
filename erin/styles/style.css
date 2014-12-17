@@ -349,4 +349,8 @@ a.email {
 	border-radius: 5px;
 	margin-top: 5%;
 	z-index: 1000;
+}*/
+.picSz {
+	max-width: 30%;
+	max-height: 35%;
 }
