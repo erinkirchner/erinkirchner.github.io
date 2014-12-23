@@ -41,6 +41,10 @@ function clearBox () {
     });
 }
 
+.$.ajax(
+    type: 'GET',
+   
+    success: function() {
 
             MQA.EventUtil.observe(window, 'load', function() {
                 var options = {
@@ -129,3 +133,4 @@ function clearBox () {
                     map.enableMouseWheelZoom();
                 });
             });
+}
