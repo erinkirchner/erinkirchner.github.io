@@ -118,6 +118,10 @@
                     <script src="http://www.mapquestapi.com/sdk/js/v7.2.s/mqa.toolkit.js?key=Fmjtd%7Cluurnuutnh%2Cbn%3Do5-9wr05a "></script>
  
                     <script type="text/javascript">
+                    function addressSubmit() {
+                        $("#startButton").on("click", function() {
+                            
+                   
                     MQA.EventUtil.observe(window, 'load', function() {
                 var options = {
                     elt: document.getElementById('map'),            // ID of map element on page
@@ -205,7 +209,10 @@
                     map.addControl(new MQA.SmallZoom());
                     map.enableMouseWheelZoom();
                 });
-            });</script>
+            
+            });     });
+                    }
+            </script>
             </div>
 
             <div id="aboutContent">
