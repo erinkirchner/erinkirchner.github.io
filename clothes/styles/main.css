@@ -148,11 +148,11 @@ ol {
     font-size:3em;
 }
 
-#policyPara {
+/*#policyPara {
     position:relative;
     left:10px;
     top:50px
-}
+}*/
 
 #policyContent {
     display:none;
