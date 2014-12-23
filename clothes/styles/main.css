@@ -274,8 +274,13 @@ input {
     font-size: 3em;
 }
 .centerJustified {
-    
+
     text-align: justify;
     margin: 0 auto;
     width: 30em;
+}
+.policyList {
+    position: relative;
+    margin-top: 18%;
+    text-align: center;
 }
