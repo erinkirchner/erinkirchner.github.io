@@ -260,7 +260,7 @@ input {
     font-size:3em;
 }
 
-#aboutPara {
+.aboutPara {
     position: relative;
     left: 10%;
     margin-top: 8%;
