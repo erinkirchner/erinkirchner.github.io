@@ -136,9 +136,9 @@
                 MQA.withModule('new-route', 'smallzoom', 'mousewheel', function() {
                     
                     var opt = {
-                        document.getElementById('startBox').value = stp,
+                         
                         request: {
-                            locations: [ stp, 'N639 Back St., Melrose, WI' ],
+                            locations: [ document.getElementById('startBox').value, 'N639 Back St., Melrose, WI' ],
 
                             options: {
                                 avoids: [],
