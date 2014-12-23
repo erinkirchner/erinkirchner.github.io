@@ -274,8 +274,7 @@ input {
     font-size: 3em;
 }
 .centerJustified {
-    position: relative;
-    margin-top: 8%;
+    
     text-align: justify;
     margin: 0 auto;
     width: 30em;
