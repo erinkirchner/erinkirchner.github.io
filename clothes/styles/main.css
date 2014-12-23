@@ -172,6 +172,7 @@ ol {
 }
 #contactContent {
     display: none;
+    overflow-x: hidden;
 }
 .listStyle {
     border-top: 1%;
