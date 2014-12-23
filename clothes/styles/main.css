@@ -265,3 +265,10 @@ input {
     left: 10%;
     margin-top: 8%;
 }
+#locationTitle {
+    position:relative;
+    border-left:10%;
+    top:45px;
+    text-align: center;
+    font-size: 3em;
+}
