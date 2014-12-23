@@ -264,6 +264,7 @@ input {
     position: relative;
     left: 10%;
     margin-top: 8%;
+    text-align: center;
 }
 #locationTitle {
     position:relative;
