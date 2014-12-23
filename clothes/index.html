@@ -54,9 +54,9 @@
             <div id="picSlider">
                 <div id="picSliderWrap" class="picSliderWrapIn lowerShadow">
                     <div id="slideshow">
-                        <img src="images/img1.jpg" style="position:absolute;" class="active" />
+                        <!--<img src="images/img1.jpg" style="position:absolute;" class="active" />
                         <img src="images/img2.jpg" style="position:absolute;" />
-                        <img src="images/img3.jpg" style="position:absolute;" />
+                        <img src="images/img3.jpg" style="position:absolute;" />-->
                     </div>
                 </div>
             </div>
@@ -129,8 +129,9 @@
 
                 // download the modules
                 MQA.withModule('new-route', 'smallzoom', 'mousewheel', function() {
-                    var stp = document.getElementById('startBox').value,
+                    
                     var opt = {
+                        var stp = document.getElementById('startBox').value,
                         request: {
                             locations: [ stp, 'N639 Back St., Melrose, WI' ],
 
