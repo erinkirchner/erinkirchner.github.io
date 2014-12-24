@@ -132,8 +132,26 @@
                     Clothes Place.</p>
                 </div>
                 <div id="mapCont">
-                    <iframe width="450" height="250" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?key=AIzaSyBasMpb31BO7D7ZHxRPTlyXnZA3aCJA-h4&q=record+stores+in+Seattle"></iframe>
+                   <form action="http://maps.google.com/maps" method="get" target="_blank">
+                        <label for="saddr">Enter your location</label>
+                        <input type="text" name="saddr" />
+                        <input type="hidden" name="daddr" value="N639 Back Street Melrose, WI 54642" />
+                        <input type="submit" value="Get directions" />
+                    </form>
+                    <iframe width="600" height="450" frameborder="0" style="border:0" id="mapFrame"src="mapPoints"></iframe>
+                    <script type="text/javascript">
+                    function getAddress() {
+                        $("#startButton").click(function() {
+                        document.getElementById('startBox').value === stp;
+                        if (document.getElementById('startBox').value === ('')) {
+                            alert(
+                            "Please Enter Your Address for Directions to The Clothes Place"
+                            );
+                        } else var mapPath ="https://www.google.com/maps/embed/v1/directions?origin=" + stp + "&destination=N639+Back+Street,+Melrose,+WI+54642&key=AIzaSyBasMpb31BO7D7ZHxRPTlyXnZA3aCJA-h4"
+                        
+                        });
 
+                    } </script>
                 <!--<div class="mapScroll" id="mapWidget">
                     <form>
                         <input class="startPoint" id="startBox" name="address"
@@ -156,17 +174,7 @@
                 </style><script src=
                 "http://www.mapquestapi.com/sdk/js/v7.2.s/mqa.toolkit.js?key=Fmjtd%7Cluurnuutnh%2Cbn%3Do5-9wr05a"></script> <script type="text/javascript">
     
-                    function getAddress() {
-                $("#startButton").click(function() {
-                document.getElementById('startBox').value;
-                if (document.getElementById('startBox').value === ('')) {
-                alert(
-                "Please Enter Your Address for Directions to The Clothes Place"
-                );
-                } else(document.getElementById('startBox').value === stp);
-                findDirections();
-                });
-                }
+                    
 
                 function findDirections() {
                 MQA.EventUtil.observe(window, 'load', function() {
