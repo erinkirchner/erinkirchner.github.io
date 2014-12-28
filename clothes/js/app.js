@@ -10,8 +10,10 @@ function init () {
     $('#policy').on("click", function() {
        
         $('#policyContent').slideDown(1000);
-        if (e.keycode == 13) {
-            e.preventDefault();
+        function e(keypress) {
+            if (e.keycode == 13) {
+                e.preventDefault();
+            }
         }
     });
 
