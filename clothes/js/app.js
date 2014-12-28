@@ -10,6 +10,7 @@ function init () {
     $('#policy').on("click", function() {
        
         $('#policyContent').slideDown(1000);
+        e.preventDefault();
     });
 
     $('#location').on("click", function() {
