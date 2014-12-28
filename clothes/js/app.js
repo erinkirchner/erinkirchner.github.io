@@ -10,7 +10,9 @@ function init () {
     $('#policy').on("click", function() {
        
         $('#policyContent').slideDown(1000);
-        e.preventDefault();
+        if (e.keycode == 13) {
+            e.preventDefault();
+        }
     });
 
     $('#location').on("click", function() {
