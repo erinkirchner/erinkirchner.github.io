@@ -285,3 +285,7 @@ input {
     margin-top: 14%;
 
 }
+#mapCont {
+    position: relative;
+    left: 20%;
+}
