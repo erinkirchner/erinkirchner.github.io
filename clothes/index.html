@@ -131,13 +131,14 @@
                     Enter your address in the box below for directions to The
                     Clothes Place.</p>
                 </div>
-                <div id="mapCont" class="fStyle"><iframe name="content" src=""></iframe>
+                <div id="mapCont" class="fStyle">
                    <form action="http://maps.google.com/maps" method="get" target="content">
                         <label for="saddr">Enter your location</label>
                         <input type="text" name="saddr" />
                         <input type="hidden" name="daddr" value="N639 Back Street Melrose, WI 54642" />
                         <input type="submit" value="Get directions" />
                     </form>
+                    <div id="targetBox"><iframe name="content" scrolling="yes" src="http://maps.google.com/maps"></iframe></div>
                     <!--<iframe width="600" height="450" frameborder="0" style="border:0" id="mapFrame"src="mapPoints"></iframe>
                     <script type="text/javascript">
                     function getAddress() {
