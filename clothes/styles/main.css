@@ -287,5 +287,6 @@ input {
 }
 #mapCont {
     position: relative;
-    left: 20%;
+    left: 31%;
+    margin-top:-10%;
 }
