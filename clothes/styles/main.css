@@ -172,7 +172,7 @@ ol {
 }
 #contactContent {
     display: none;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .listStyle {
     border-top: 1%;
@@ -288,5 +288,8 @@ input {
 #mapCont {
     position: relative;
     left: 31%;
-    margin-top:-10%;
+    /*margin-top:-10%;*/
+}
+#targetBox {
+
 }
